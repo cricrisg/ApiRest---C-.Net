@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cars.Application.BusinessModels\Cars.Application.BusinessModels.csproj" />
+    <ProjectReference Include="..\Cars.DataAccess.Contracts\Cars.DataAccess.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
